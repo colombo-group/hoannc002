@@ -1,4 +1,4 @@
-# trainee001
+# trainee001 Hoan
 Repo bài tập 1 cho thực tập
 
 Xem file [Hướng dẫn](https://github.com/colombo-trainee/trainee001/blob/master/requirements/hướng%20dẫn.md) để thực hiện
