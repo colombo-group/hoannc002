@@ -1,0 +1,254 @@
+#top {
+    width: 100%;
+    height: 30px;
+    background-color: #0f75bc;
+    color: #fff0f0;
+    margin: 0;
+    padding-top: 5px;
+
+}
+
+#top a {
+    text-decoration: none;
+    color: #fff0f0;
+}
+
+#top a:hover{
+    color: #5dade2;
+}
+#menu nav{
+    height:100px;
+    margin-bottom: 0px;
+}
+#menu ul{
+    padding-top:20px;
+}
+
+#slide{
+    background-image: url('../images/home/background-slide.png');
+    height: 400px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+#intro-title {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #333333;
+}
+#intro-content {
+    margin-top: 30px;
+    font-size: 17px;
+    color: #033333;
+}
+
+
+/*Offer*/
+#offer {
+    clear: both;
+    height: 340px;
+    background: #f89502;
+}
+#offer:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0; /* Chieu cao cua thanh phan bang 0 */
+    line-height: 0; /* Khoang cach cua dong` bang 0 */
+    visibility: hidden;
+}
+.offer-center {
+    /*clear: both;*/
+    margin: auto;
+    width: 1600px;
+    padding-left: 50px;
+    /*text-align: center;*/
+    /*overflow: auto;*/
+
+}
+#offer-title {
+    width: 260px;
+    height: 270px;
+    float: left;
+    background: #ffffff;
+    margin: 30px 30px 30px 100px;
+}
+#offer-title div{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+#offer-title div p{
+    font-size: 40px;
+    color: #333333;
+}
+
+#offer-main {
+
+    height: 340px;
+    /*width: 1100px;*/
+    /*float: left;*/
+    position:relative;
+    color: #ffffff;
+}
+#offer-main a{
+    text-decoration: none;
+}
+
+.read-more {
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+    border: solid;
+    border-color: #f89502;
+    border-width: 3px;
+
+
+
+}
+.read-more a{
+
+    color: #f89502;
+    padding-left: 10px;
+
+}
+.read-more a:hover {
+    color: blue;
+}
+
+#offer1 {
+    float: left;
+    height: 340px;
+    width: 600px;
+    background-image: url('../images/home/offer-img2.png');
+}
+
+#offer1 p:nth-child(1){
+    padding-top: 160px;
+    padding-left: 20px;
+
+    font-size: 40px;
+}
+#offer1 p:nth-child(2){
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+#offer2 {
+    float: left;
+    height: 340px;
+    width: 255px;
+    background-image: url('../images/home/offer-img3.png');
+}
+#offer2 p:nth-child(1){
+    padding-top: 160px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+#offer2 a{
+    color: #f89502;;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#offer3 {
+    float: left;
+    height: 340px;
+    width: 240px;
+    background-image: url('../images/home/offer-img4.png');
+}
+#offer3 p:nth-child(1){
+    padding-top: 160px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+#offer3 a{
+    color: #f89502;;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#introduce{
+    padding-bottom: 50px;
+}
+#intro-footer{
+    padding-top: 20px;
+}
+#main a{
+    text-decoration: none;
+}
+#main .panel-heading {
+    font-size: 30px;
+    color: #333333;
+    margin-top: 30px;
+}
+.panel-content2 {
+
+    color: #333333;
+    font-size: 20px;
+}
+
+.panel-content {
+    padding-top: 5px;
+    color: #999999;
+}
+
+/*Footer*/
+#footer1{
+    background-color: #ffffff;
+    height: 150px;
+
+}
+#footer1 img{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+#footer2{
+    background-color: #f89502;
+    height: 15px;
+}
+#footer3{
+    background-color: #0f75bc;
+    height: 200px;
+}
+
+.text1{
+    padding-top:30px;
+    color: #dddddd;
+    font-size: 18px;
+}
+.text2{
+    color: #dddddd;
+    font-size: 12px;
+}
+
+#info1 ul li {
+    display: inline;
+    font-size: 10px;
+    color: #5eb1fa;
+    border-right: dotted 1px #5eb1fa;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#info1 ul li .lithird{
+    border: none;
+}
+
+#info2 {
+    margin-top: 20px;
+}
+#info2 img{
+    padding-right: 20px;
+}
+
+.f3Right {
+    float:right;
+    margin-left: 20px;
+}
+.f3Right img{
+    width: 100%;
+    height: 100%;
+}
+/*EndFooter*/
